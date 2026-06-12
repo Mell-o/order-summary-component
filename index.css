@@ -29,9 +29,12 @@ a {
 
 h1, h2 {
     color: var(--Blue-950);
+    margin: 0;
 }
 
 section {
+    display: flex;
+    flex-direction: column;
     width: 345px;
     border-radius: 1.125em;
     text-align: center;
@@ -46,6 +49,10 @@ p {
 .hero-banner {
     width: 100%;
     border-radius: 1.125em 1.125em 0 0;
+}
+
+.order-summary-content {
+    margin: 0 1.5em 1.5em 1.5em;
 }
 
 .plan-details-container {
