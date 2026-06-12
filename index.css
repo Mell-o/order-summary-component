@@ -19,6 +19,28 @@ body {
     align-items: center;
 }
 
+section {
+    width: 345px;
+    border-radius: 1.125em;
+    text-align: center;
+}
+
 p {
     font-size: 1rem;
+}
+
+.hero-banner {
+    width: 100%;
+    border-radius: 1.125em 1.125em 0 0;
+}
+
+.plan-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-actions {
+    display: flex;
+    flex-direction: column;
 }
