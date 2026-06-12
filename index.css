@@ -91,6 +91,11 @@ p, .cancel-payment-btn {
     border-radius: 11.25px;
 }
 
+.pricing-details {
+    display: flex;
+    flex-direction: column;
+}
+
 .order-actions {
     display: flex;
     flex-direction: column;
