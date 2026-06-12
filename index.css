@@ -11,6 +11,10 @@
     --Blue-950: hsl(223, 47%, 23%);
 }
 
+body {
+    font-family: "Red Hat Display", sans-serif;
+}
+
 p {
     font-size: 1rem;
 }
