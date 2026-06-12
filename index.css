@@ -27,6 +27,11 @@ a {
     color: var(--Blue-700);
 }
 
+h1 {
+    font-size: 1.375rem; /* 22px */
+    font-weight: 800;
+}
+
 h1, h2 {
     color: var(--Blue-950);
     margin: 0;
@@ -36,13 +41,14 @@ section {
     display: flex;
     flex-direction: column;
     width: 345px;
-    border-radius: 1.125em;
+    border-radius: 1.125em; /* 18px */
     text-align: center;
     background-color: var(--White);
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1rem; /* 16px */
+    font-weight: 400;
     color: var(--Gray-600);
 }
 
@@ -52,7 +58,12 @@ p {
 }
 
 .order-summary-content {
-    margin: 0 1.5em 1.5em 1.5em;
+    margin: 1.5em; /* 24px */
+}
+
+.summary-description {
+    line-height: 1.5em;
+    padding: 0 1em;
 }
 
 .plan-details-container {
