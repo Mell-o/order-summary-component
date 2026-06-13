@@ -97,6 +97,11 @@ p, .cancel-payment-btn {
     margin: 0 0 1.5em 0; /* 24px */
 }
 
+.plan-details-left {
+    display: flex;
+    align-items: center;
+}
+
 .pricing-details {
     display: flex;
     flex-direction: column;
