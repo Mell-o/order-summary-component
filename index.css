@@ -102,6 +102,10 @@ p, .cancel-payment-btn {
     align-items: center;
 }
 
+.music-icon {
+    margin: 0 1em 0 0; /* 16px */
+}
+
 .pricing-details {
     display: flex;
     flex-direction: column;
