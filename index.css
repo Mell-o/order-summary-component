@@ -29,6 +29,14 @@ a {
     font-weight: bold;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
+a:hover, .payment-btn:hover {
+    opacity: 70%;
+}
+
 button {
     font-family: "Red Hat Display", sans-serif;
     border: none;
@@ -36,6 +44,7 @@ button {
     padding: 1em 0; /* 15px */
     border-radius: 0.75em; /* 11.25px */
     font-size: 0.938rem; /* 15px */
+    cursor: pointer;
 }
 
 h1 {
@@ -132,4 +141,8 @@ p, .cancel-payment-btn {
 
 .cancel-payment-btn {
     background: none;
+}
+
+.cancel-payment-btn:hover {
+    color: var(--Blue-950);
 }
