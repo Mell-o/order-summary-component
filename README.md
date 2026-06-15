@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/order-summary-component-using-flexbox-WjJRRsBW97)
 - [Live Site](https://order-summary-component-mellow.netlify.app/)
 
 ## My process
