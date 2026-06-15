@@ -11,10 +11,15 @@
     --Blue-950: hsl(223, 47%, 23%);
 
     --White: hsl(0, 0%, 100%);
+
+    --hover-color: #7469ea;
 }
 
 body {
     font-family: "Red Hat Display", sans-serif;
+    background-image: url("./images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,10 +36,7 @@ a {
 
 a:hover {
     text-decoration: none;
-}
-
-a:hover, .payment-btn:hover {
-    opacity: 70%;
+    color: var(--hover-color);
 }
 
 button {
@@ -139,6 +141,10 @@ p, .cancel-payment-btn {
     color: var(--White);
 }
 
+.payment-btn:hover {
+    background-color: var(--hover-color);
+}
+
 .cancel-payment-btn {
     background: none;
 }
@@ -154,18 +160,23 @@ p, .cancel-payment-btn {
 }
 
 .attribution a {
-    color: var(--Blue-700);
     font-size: 0.625rem; /* 10px */
 }
 
 @media (min-width: 768px) {
 
-    a {
+   a {
         font-size: 0.781rem; /* 12.5px */
     }
 
-    button {
+   button {
         font-size: 0.813rem; /* 13px */
+    }
+
+    body {
+        background-image: url("./images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
    h1 {
@@ -201,5 +212,17 @@ p, .cancel-payment-btn {
 
     .attribution {
         display: block;
+    }
+}
+
+@media (height <= 700px) and (width >= 768px) {
+    body {
+        height: 150vh;
+    }
+}
+
+@media (width <= 768px) and (height <= 587px) {
+    body {
+        height: 150vh;
     }
 }
