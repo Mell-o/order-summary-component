@@ -158,9 +158,6 @@ p, .cancel-payment-btn {
     font-size: 0.625rem; /* 10px */
 }
 
-.attribution:hover {
-    color: var(--Blue-950);
-}
 
 @media (min-width: 768px) {
 
