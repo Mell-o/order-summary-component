@@ -69,6 +69,7 @@ section {
     border-radius: 1.125em; /* 18px */
     text-align: center;
     background-color: var(--White);
+    margin: 0 0 0.875em 0; /* 14px */
 }
 
 p {
@@ -146,6 +147,21 @@ p, .cancel-payment-btn {
     color: var(--Blue-950);
 }
 
+.attribution {
+    display: none;
+    font-size: 0.625rem; /* 10px */
+    color: var(--Blue-950);
+}
+
+.attribution a {
+    color: var(--Blue-700);
+    font-size: 0.625rem; /* 10px */
+}
+
+.attribution:hover {
+    color: var(--Blue-950);
+}
+
 @media (min-width: 768px) {
 
     a {
@@ -185,5 +201,9 @@ p, .cancel-payment-btn {
 
     .order-actions {
         gap: 0.75em; /* 12px */
+    }
+
+    .attribution {
+        display: block;
     }
 }
