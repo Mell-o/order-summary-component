@@ -221,7 +221,7 @@ p, .cancel-payment-btn {
     }
 }
 
-@media (width <= 768px) and (height <= 587px) {
+@media (width <= 768px) and (height <= 579px) {
     body {
         height: 150vh;
     }
